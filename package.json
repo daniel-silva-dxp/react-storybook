@@ -18,5 +18,8 @@
     "react-docgen-typescript-loader": "^3.7.2",
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "react-dom": "^16.13.1"
   }
 }
