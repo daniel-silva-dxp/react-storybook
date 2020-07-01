@@ -3,19 +3,19 @@ import { create } from '@storybook/theming';
 export default create({
     base: 'dark',
 
-    colorSecondary: "#7159c1",
+    colorSecondary: "#28F5BE",
     
-    appBg: "#0b0a0d",
-    appContentBg: "#16161a",
-    appBorderColor: "#7159c1",
+    appBg: "#fff",
+    appContentBg: "#f8f8f8",
+    appBorderColor: "#28F5BE",
     
-    textColor: "#fff",
+    textColor: "#1b1a1f",
 
     // Toolbar default and active colors
     barTextColor: "#e6e6e6",
     barSelectedColor: "#fff",
     barBg: "#1b1a1f",
 
-    brandTitle: "UI Docs",
-    brandUrl: "https://recketseat.com.br"
+    brandTitle: "Daniel Silva",
+    brandUrl: "https://danielsilva-front.netlify.app/"
 })

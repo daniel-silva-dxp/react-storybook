@@ -1,5 +1,16 @@
 import React from 'react';
 import { Button } from '@storybook/react/demo';
+import { storiesOf } from '@storybook/react';
+import MyButton from '../src/components/Button';
+import Welcome from '../src/components/Welcome'
+
+
+storiesOf('Welcome', module)
+  .add('to Storybook', () => (
+    <Welcome />
+  ));
+
+storiesOf('Button', module).add('My Button', () => <MyButton>My Button</MyButton>)
 
 export default { title: 'Button' };
 
