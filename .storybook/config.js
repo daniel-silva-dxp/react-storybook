@@ -7,13 +7,13 @@ import theme from './theme';
 import './reset.css';
 
 addParameters({
-  options: {
-    theme,
-  },
+	options: {
+		theme
+	}
 });
 
 addDecorator(withInfo);
 addDecorator(centered);
 
 // Import all stories
-configure(require.context('../stories', true, /\.stories\.js$/), module);
+configure(require.context('../stories', true, /\.stories\.tsx$/), module);
