@@ -4,13 +4,16 @@
   "main": "dist/index.js",
   "eslintConfig": {
     "env": {
-        "browser": true,
-        "node": true
+      "browser": true,
+      "node": true
     }
   },
   "repository": "https://github.com/daniel-silva-dxp/react-storybook.git",
   "author": "Daniel Silva <danielsilvadxp@gmail.com> (https://danielsilva-front.netlify.app/)",
   "license": "MIT",
+  "resolutions": {
+    "styled-components": "^5"
+  },
   "scripts": {
     "storybook": "start-storybook -p 8090"
   },
@@ -26,6 +29,8 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "react-dom": "^16.13.1"
+    "@types/styled-components": "^5.1.0",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
   }
 }
